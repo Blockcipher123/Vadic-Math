@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vedic Math</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Vedic Math Training</h1>
+        <p id="message">Hello, welcome to Vedic math session. I will train you to become good at math.</p>
+        <button onclick="startGame()">Start</button>
+        <div id="question-container" class="hidden">
+            <p id="question"></p>
+            <input type="text" id="user-answer" placeholder="Your answer">
+            <button onclick="checkAnswer()">Submit Answer</button>
+            <p id="result"></p>
+            <button onclick="nextQuestion()" id="next-question-btn" class="hidden">Next Question</button>
+<p id="result"></p>
+        </div>
+        
+        <div id="score-container" class="hidden">
+            <h1>Your Score</h1>
+            <p id="score"></p>
+        </div>
+
+    </div>
+
+
+    <script src="main.js"></script>
+    <footer class="copy-right">
+        <p>
+            © Created By <a href="https://blockcipher.netlify.app" style="text-decoration: none;" target="_blank"><span class="block-cipher-text">Block_Cipher</span></a>
+        </p>
+    </footer>
+
+</body>
+</html>
